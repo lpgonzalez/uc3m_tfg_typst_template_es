@@ -1,0 +1,10 @@
+{
+  // Para la extensión Tinymist (Typst) de VS Code.
+  // Indica dónde están las fuentes incrustadas de la plantilla para que la
+  // previsualización las use (TeX Gyre Heros/Cursor y OpenMoji).
+  "tinymist.fontPaths": ["fonts"],
+
+  // Exporta a PDF/A-2b al guardar (quítalo si prefieres exportar a mano).
+  "tinymist.exportPdf": "never",
+  "tinymist.compileStatus": "enable"
+}

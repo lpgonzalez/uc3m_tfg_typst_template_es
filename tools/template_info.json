@@ -1,0 +1,9 @@
+{
+  "_comment": "Metadatos de la PLANTILLA (no del TFG). Los escribe tools/polish.py en el diccionario /Info del PDF como propiedades personalizadas Template.*, visibles en la pestaña 'Personalizado'/'Custom' de Adobe. Los actualiza quien mantiene la plantilla, NO el alumnado. Equivale a tfg_template_info.tex de la versión LaTeX.",
+  "Template.URL": "https://github.com/lpgonzalez/uc3m_tfg_typst_template_es",
+  "Template.Author": "Lisardo Prieto González",
+  "Template.Contributors": "Ninguno todavía",
+  "Template.Version": "1.0.0",
+  "Template.Date": "2026-05-24",
+  "Template.Comments": "Plantilla de TFG de la Universidad Carlos III de Madrid portada a Typst (réplica de la versión en LaTeX): portada oficial, declaración de uso de IA generativa, salida PDF/A-2b y tipografías incrustadas. Basada en la plantilla oficial de la UC3M, con desarrollos propios y mejoras aportadas por antiguos alumnos."
+}

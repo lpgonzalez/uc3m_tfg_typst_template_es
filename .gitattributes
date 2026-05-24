@@ -1,0 +1,13 @@
+# Detección de lenguaje en GitHub (Linguist). Solo es cosmético: ajusta la barra
+# de lenguajes del repositorio; no afecta a la compilación.
+
+# La documentación Markdown (README, CHANGELOG) no cuenta como "código".
+*.md          linguist-documentation
+
+# Fuentes e imágenes incrustadas: material de terceros, no cuentan como código.
+fonts/*       linguist-vendored
+images/*      linguist-vendored
+
+# El retoque del PDF es una utilidad de compilación opcional; no debe contar
+# como lenguaje principal del repositorio (este es un proyecto Typst).
+tools/*.py    linguist-detectable=false

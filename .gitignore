@@ -1,0 +1,25 @@
+# =====================================================================
+#  Ficheros generados — no se versionan
+# =====================================================================
+
+# PDF compilado. Coméntalo si prefieres versionar el PDF de ejemplo.
+main.pdf
+
+# Renderizados de previsualización y PDF de pruebas.
+render-*.png
+*_test.pdf
+_*.pdf
+
+# Caché local de Typst (paquetes @preview descargados, etc.).
+.typst/
+
+# =====================================================================
+#  Sistema operativo y editores
+# =====================================================================
+.DS_Store
+Thumbs.db
+
+# Python (por si se usa un entorno virtual para tools/polish.py).
+__pycache__/
+*.pyc
+.venv/

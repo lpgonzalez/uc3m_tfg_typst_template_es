@@ -1,0 +1,5 @@
+# Dependencia de tools/polish.py (retoque opcional del PDF, PDF/A-safe).
+# Probado con PyMuPDF 1.27.2.3. El rango permite actualizaciones dentro de 1.x
+# (el script usa APIs estables) y evita un posible cambio incompatible en 2.x.
+# Instálalo con:  pip install -r tools/requirements.txt
+pymupdf>=1.27,<2
