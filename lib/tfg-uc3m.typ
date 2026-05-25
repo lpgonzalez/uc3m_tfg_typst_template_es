@@ -17,7 +17,10 @@
   set document(
     title: info.at("title", default: ""),
     author: info.at("author", default: ""),
-    keywords: info.at("keywords", default: ()),
+    // Subject (= tipo de trabajo y titulación) y palabras clave del PDF, como en LaTeX.
+    description: info.at("thesis-type", default: "") + " -- " + info.at("degree", default: ""),
+    keywords: (info.at("thesis-type", default: ""), info.at("university", default: ""))
+      + info.at("keywords", default: ()),
   )
 
   // --- Tipografía: TeX Gyre Heros (cuerpo) y Cursor (monoespaciada) ---

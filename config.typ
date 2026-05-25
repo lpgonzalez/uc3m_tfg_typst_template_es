@@ -12,6 +12,7 @@
   author: "Nombre Apellido",
   advisor: "Nombre del Tutor o Tutora",
   degree: "Grado en Ingeniería Informática",
+  university: "Universidad Carlos III de Madrid",
   academic-year: "2024-2025",
   thesis-type: "Trabajo de Fin de Grado",
   place-and-date: "Leganés, junio de 2025",
